@@ -24,3 +24,29 @@ brew cask install vagrant-manager
 ```bash
 vagrant up
 ```
+
+## SSH connexion
+
+```bash
+vagrant ssh
+```
+
+ or
+
+```bash
+ssh vagrant@192.168.33.10
+```
+
+with password vgrant
+
+## stop machine
+
+```bash
+vagrant halt
+```
+
+## Delete machine
+
+```bash
+vagrant destroy
+```
