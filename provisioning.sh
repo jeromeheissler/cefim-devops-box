@@ -11,6 +11,7 @@ apt-get update
 apt-get install -y default-jdk curl openssh-server ca-certificates
 apt-get install -y jenkins maven docker.io docker-compose
 
+usermod -a -G sudo jenkins
 usermod -a -G docker jenkins
 usermod -a -G docker vagrant
 
