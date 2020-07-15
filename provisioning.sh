@@ -1,8 +1,8 @@
 #!/bin/bash
 DBHOST=localhost
 DBNAME=petclinic
-DBUSER=root
-DBPASSWD=root
+DBUSER=petclinic
+DBPASSWD=petclinic
 
 wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
 echo deb http://pkg.jenkins-ci.org/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list
