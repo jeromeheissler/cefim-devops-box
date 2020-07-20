@@ -37,7 +37,7 @@ vagrant ssh
 ssh vagrant@192.168.33.10
 ```
 
-with password vgrant
+with password vagrant
 
 ## stop machine
 
