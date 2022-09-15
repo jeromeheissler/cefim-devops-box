@@ -1,4 +1,4 @@
-# Virtual Machine for trying jenkins
+# Virtual Machine with Docker, Nginx, PostgreSql, NodeJs
 
 ## setup
 
@@ -34,7 +34,7 @@ vagrant ssh
  or
 
 ```bash
-ssh vagrant@192.168.33.10
+ssh vagrant@192.168.56.10 -p 2222
 ```
 
 with password vagrant
